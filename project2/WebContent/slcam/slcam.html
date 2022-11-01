@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+</head>
+<body>
+<fieldset style ="width:800px">
+<legend>카메라 추가창</legend>
+<form action="/project2/SlCamInsert.do" method="post">
+<table class="tg" style="undefined;table-layout: fixed; width: 542px">
+<colgroup>
+<col style="width: 119px">
+<col style="width: 423px">
+</colgroup>
+<tbody>
+  <tr>
+    <td class="tg-0lax">명칭</td>
+    <td class="tg-0lax"><input type ="text" name = "slcam_name"/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">위치</td>
+    <td class="tg-0lax"><input type ="text" name = "slcam_location"/></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">상태</td>
+    <td class="tg-0lax"><input type ="text" name = "slcam_status"/></td>
+  </tr>
+   <tr>
+    <td align="center" colspan="2">
+    <input type ="submit" value ="카메라 추가"/>
+    <input type ="reset" value ="취소"/>
+    </td>
+  </tr>
+</tbody>
+</table>
+</form>
+</fieldset>
+</body>
+</html>

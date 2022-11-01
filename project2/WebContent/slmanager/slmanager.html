@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+	body{
+	font-size: 12px;
+	}
+	table{
+   	width: 100%;
+   	border: 1px solid #444444;
+   	border-collapse: collapse;
+	}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-mfhl{background-color:#ffffc7;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+</head>
+<body>
+<fieldset style ="width:800px">
+<legend>회원가입</legend>
+<form action="/project2/SlManagerInsert.do" method="post">
+<table class="tg">
+<tr>
+    <th class="tg-mfhl">아이디 </th>
+    <th class="tg-0pky"><input type ="text" name = "slmanager_id"/></th>
+  </tr>
+  <tr>
+    <td class="tg-mfhl">비밀번호</td>
+    <td class="tg-0pky"><input type ="text" name = "slmanager_pw"/></td>
+  </tr>
+  <tr>
+  <tr>
+    <td class="tg-mfhl">직책</td>
+    <td class="tg-0pky"><input type ="text" name = "slmanager_position"/></td>
+  </tr>
+  <tr>
+    <td class="tg-mfhl">이름</td>
+    <td class="tg-0pky"><input type ="text" name = "slmanager_name"/></td>
+  </tr>
+  <tr>
+    <td class="tg-mfhl">전화번호</td>
+    <td class="tg-0pky"><input type ="text" name = "slmanager_tel"/></td>
+  </tr>
+  <tr>
+    <td class="tg-mfhl">이메일</td>
+    <td class="tg-0pky"><input type ="text" name = "slmanager_mail"/></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+    <input type ="submit" value ="회원가입"/>
+    <input type ="reset" value ="취소"/>
+    </td>
+  </tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
